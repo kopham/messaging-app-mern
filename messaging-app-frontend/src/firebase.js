@@ -4,7 +4,6 @@ import 'firebase/compat/storage'; // for storage
 import 'firebase/compat/database'; // for realtime database
 import 'firebase/compat/firestore'; // for cloud firestore
 
-
 // From firebase app
 const firebaseConfig = {
     apiKey: "AIzaSyC_-mrWjs_LP-zyd1AWkM_VBDV7BMuPFCI",
