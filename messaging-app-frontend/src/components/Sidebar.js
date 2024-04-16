@@ -6,8 +6,10 @@ import MoreVertIcon from '@mui/icons-material/MoreVert'
 import { Avatar, IconButton } from '@mui/material'
 import { SearchOutlined } from '@mui/icons-material'
 import SidebarChat from './SidebarChat'
+import { useStateValue } from './StateProvider'
 
-const Sidebar = () => {
+const Sidebar = ({ messages }) => {
+    const [{ user } , dispatch] = useStateValue()
     return (
         <div className="sidebar">
             <div className="sidebar__header">
@@ -31,9 +33,7 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="sidebar__chats">
-                <SidebarChat />
-                <SidebarChat />
-                <SidebarChat />
+                <SidebarChat messages = {messages} />
             </div>
         </div>
     )
