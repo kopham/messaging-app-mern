@@ -1,8 +1,9 @@
+## This application was built using MERN stack. 
 
-## To Run The Front-end On Local Machine.
+### To run the front-end on local machine.
 
-### Type: `nodemon start`
+#### Type: `nodemon start`
 
-## The Web Application
+### The Web Application
 
-Link to the application: ([https://messaging-app-mern-242f6.web.app/]).
+#### Link to the application: ([https://messaging-app-mern-242f6.web.app/]).
